@@ -1,3 +1,5 @@
+// TODO use ScriptApp.newTrigger('makeMagic').timeBased().everyMinutes(5) at day and run every ~hour at night to avoid scripting quota.
+// night/day trigger should enable makeMagic trigger
 function makeMagic() {
   const taskFormService = new TaskFormService();
   const demands = demandService.getDemands();
